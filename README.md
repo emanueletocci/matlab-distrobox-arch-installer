@@ -1,4 +1,4 @@
-# MATLAB on Arch via Distrobox
+# MATLAB on Arch via Distrobox - alpha
 
 A Bash script to install MATLAB on **Arch Linux** using **Distrobox** and an Ubuntu container.
 
@@ -22,8 +22,8 @@ A Bash script to install MATLAB on **Arch Linux** using **Distrobox** and an Ubu
 ```bash
 git clone https://github.com/your-username/matlab-distrobox-arch-installer.git
 cd matlab-distrobox-arch-installer
-chmod +x scripts/install-matlab-distrobox-arch.sh
-./scripts/install-matlab-distrobox-arch.sh
+chmod +x install.sh 
+./install.sh
 ```
 
 ## Result
