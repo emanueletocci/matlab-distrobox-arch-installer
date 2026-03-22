@@ -22,8 +22,8 @@ A Bash script to install MATLAB on **Arch Linux** using **Distrobox** and an Ubu
 ```bash
 git clone https://github.com/your-username/matlab-distrobox-arch-installer.git
 cd matlab-distrobox-arch-installer
-chmod +x install.sh 
-./install.sh
+chmod +x scripts/install.sh scripts/install_in_container.sh
+./scripts/install.sh
 ```
 
 ## Result
@@ -44,7 +44,7 @@ alias --save matlab 'env QT_QPA_PLATFORM=xcb $HOME/.local/bin/matlab'
 
 ## Notes
 
-- The script is intended for **Arch Linux hosts**.
+- This script is intended for **Arch Linux hosts**.
 - MATLAB activation may still require manual login or license steps.
 - On Wayland, MATLAB may need:
 
